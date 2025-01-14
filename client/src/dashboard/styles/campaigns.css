@@ -1,0 +1,41 @@
+/* Campaigns Page Styles */
+.campaigns-container {
+    padding: 20px;
+}
+
+.campaign-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.campaign-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.campaign-item-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.campaign-item-body {
+    font-size: 1rem;
+}
+
+.campaign-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.campaign-btn:hover {
+    background-color: #218838;
+}

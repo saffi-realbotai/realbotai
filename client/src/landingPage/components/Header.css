@@ -1,0 +1,28 @@
+/* Header.css - Styling for the Header Section */
+
+.header {
+  background-color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.header-nav a {
+  margin: 0 20px;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  color: #007bff;
+}
