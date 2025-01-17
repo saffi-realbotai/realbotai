@@ -1,0 +1,41 @@
+/* Contacts Page Styles */
+.contacts-container {
+    padding: 20px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-item-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contact-item-body {
+    font-size: 1rem;
+}
+
+.contact-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com",
+        "role": "Agent",
+        "status": "Active",
+        "aiEngagement": "High"
+    },
+    {
+        "id": 2,
+        "name": "John Smith",
+        "email": "john.smith@example.com",
+        "role": "Agent",
+        "status": "Inactive",
+        "aiEngagement": "Low"
+    },
+    {
+        "id": 3,
+        "name": "Emily Davis",
+        "email": "emily.davis@example.com",
+        "role": "Manager",
+        "status": "Active",
+        "aiEngagement": "High"
+    }
+]

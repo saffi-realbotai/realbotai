@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Meta Lead Gen Campaign",
+        "status": "Active",
+        "budget": 500,
+        "leadsGenerated": 50,
+        "costPerLead": 10.00
+    },
+    {
+        "id": 2,
+        "name": "Google Ads Retargeting",
+        "status": "Paused",
+        "budget": 300,
+        "leadsGenerated": 20,
+        "costPerLead": 15.00
+    },
+    {
+        "id": 3,
+        "name": "Email Outreach Campaign",
+        "status": "Completed",
+        "budget": 200,
+        "leadsGenerated": 30,
+        "costPerLead": 6.67
+    }
+]

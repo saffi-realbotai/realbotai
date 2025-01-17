@@ -1,0 +1,17 @@
+{
+    "plan": "Professional Plan",
+    "amount": 149,
+    "nextPaymentDate": "2025-02-10",
+    "paymentHistory": [
+        {
+            "date": "2025-01-10",
+            "amount": 149,
+            "status": "Paid"
+        },
+        {
+            "date": "2024-12-10",
+            "amount": 149,
+            "status": "Paid"
+        }
+    ]
+}
