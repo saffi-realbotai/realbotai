@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #333;
+  background-color: rgb(15, 17, 28);
   color: white;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .book-call-btn {
-  background-color: #4caf50;
+  background-color:  rgb(51, 198, 171);
   border: none;
   color: white;
   padding: 10px 20px;
@@ -33,7 +33,7 @@
 }
 
 .book-call-btn:hover {
-  background-color: #45a049;
+  background-color: rgba(15, 17, 28, .8);
 }
 
 .book-call-btn:active {
