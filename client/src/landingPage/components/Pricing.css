@@ -1,27 +1,119 @@
 .pricing-section {
   text-align: center;
   padding: 50px;
-  background-color: #f7f7f7;
+  background-color: rgb(15, 17, 28);
+  color: white;
+}
+
+.pricing-section h3{
+  color: white
+}
+
+.pricing-btn {
+  background-color: var(--text-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+.pricing-btn1 {
+  background-color: var(--text-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 153px;
+}
+.pricing-btn2 {
+  background-color: var(--text-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 50px;
+}
+.pricing-btn3 {
+  background-color: var(--text-color);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 218px;
+}
+
+.pricing-btn:hover {
+  background-color: rgba(15, 17, 28, 0.8);
+}
+.pricing-btn1:hover {
+  background-color: rgba(15, 17, 28, 0.8);
+}
+.pricing-btn2:hover {
+  background-color: rgba(15, 17, 28, 0.8);
+}
+.pricing-btn3:hover {
+  background-color: rgba(15, 17, 28, 0.8);
 }
 
 .pricing-cards {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust card size */
+  gap: 5px; /* Space between cards */
+  justify-items: center; /* Center cards horizontally */
+  margin-top: 20px;
 }
 
 .pricing-card {
-  background-color: white;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid var(--text-color); /* Dark base border */
+  box-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.5), /* Outer glow */
+    inset 0 0 10px rgba(255, 255, 255, 0.3); /* Inner glow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  background: transparent; /* Ensure no background color */
+  /* text-align: left; */
+  max-width: 100%; /* Ensure cards don't overflow */
 }
 
 .pricing-card h3 {
   margin: 0 0 10px;
+  color: var(--text-color)
 }
 
 .pricing-card p {
+  margin: 0 0 5px;
+}
+
+.pricing-card ul {
+  list-style: none; /* Remove default bullets */
+  padding: 0; /* Remove default padding */
   margin: 0;
 }
+
+
+.pricing-card li {
+  display: flex; /* Align icon and text horizontally */
+  align-items: center;
+  margin: 10px 0; /* Add spacing between items */
+  font-size: 14px; /* Adjust font size for better readability */
+}
+
+.icon {
+  color: var(--text-color); /* Match icon color with theme */
+  margin-right: 10px; /* Add spacing between icon and text */
+}
+

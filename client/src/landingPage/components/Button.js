@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognition";
 import axios from "axios";
 import "./Button.css";
-import micIcon from "./assets/images/mic_white.svg"; // Ensure mic icon is in the correct folder
+import micIcon from "./assets/images/mic_white1.svg"; // Ensure mic icon is in the correct folder
 
 const Button = () => {
   const [isProcessing, setIsProcessing] = useState(false);
@@ -52,7 +52,7 @@ const Button = () => {
         onMouseDown={handleSpeechStart}
         onMouseUp={handleSpeechStop}
       >
-        <img src={micIcon} alt="Microphone Icon" />
+        <img src={micIcon} alt="Microphone Icon"  />
       </button>
       {listening && <p>Listening...</p>}
       {transcript && !isProcessing && <p className="transcript-display">Transcript: {transcript}</p>}

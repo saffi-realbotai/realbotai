@@ -1,27 +1,48 @@
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 .button-container {
   text-align: center;
 }
-
 .realbotai-btn {
-  background-color: #4caf50;
+  background-color: rgb(51, 198, 171);
   border: none;
-  padding: 20px;
+  color: white;
+  padding: 20px 24px;
   border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+.realbotai-btn:hover {
+  background-color: rgba(15, 17, 28, .8);
+}
+
 
 .realbotai-btn-listening {
+  animation: bounce 1s infinite;
   background-color: #f44336;
 }
 
 .realbotai-btn-idle {
-  background-color: #4caf50;
+  background-color: rgb(51, 198, 171);
 }
 
 .realbotai-btn img {
   width: 30px;
   height: 30px;
+}
+
+
+
+
+.realbotai-btn:active {
+  transform: scale(0.9); /* Slight shrink effect when pressed */
 }
 
 .transcript-display {

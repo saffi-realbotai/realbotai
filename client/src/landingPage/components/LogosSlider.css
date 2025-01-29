@@ -1,0 +1,26 @@
+.logos-slider-section {
+  padding: 40px 20px;
+  background-color: rgb(15, 17, 28);
+  text-align: center;
+}
+
+.slider-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white; /* Make the text white */
+}
+.logo-image svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto; /* Center align */
+}
+
+
+.logo-image {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain; /* Ensures logos fit without distortion */
+  margin: 0 auto;
+}

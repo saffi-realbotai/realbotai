@@ -1,36 +1,55 @@
-/* FeaturesSection.css - Styling for the Features Section */
-
 .features-section {
-  padding: 60px 20px;
-  background-color: #f9f9f9;
+  padding: 20px;
   text-align: center;
+  color: white; /* Make the main text white */
 }
 
 .features-section h2 {
-  font-size: 32px;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 
 .feature-item {
-  display: flex;
-  justify-content: space-around;
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between grid items */
   margin-top: 30px;
 }
 
 .feature-item div {
-  flex: 1;
   padding: 20px;
-  background-color: white;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--text-color); /* Dark base border */
+  box-shadow: 
+    0 0 10px rgba(255, 255, 255, 0.5), /* Outer glow */
+    inset 0 0 10px rgba(255, 255, 255, 0.3); /* Inner glow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  background: transparent; /* Ensure no background color */
 }
 
-.feature-item h3 {
-  font-size: 24px;
-  color: #333;
+.feature-item div:hover {
+  transform: translateY(-5px); /* Hover effect for interactivity */
+  box-shadow: 
+    0 0 15px rgba(255, 255, 255, 0.8), /* Brighter outer glow on hover */
+    inset 0 0 15px rgba(255, 255, 255, 0.6); /* Brighter inner glow */
 }
 
+/* Style for paragraph text */
 .feature-item p {
-  font-size: 16px;
-  color: #777;
+  color: gray; /* Set text color to gray */
+  margin-top: 10px;
+  line-height: 1.6; /* Improve readability */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .feature-item {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .feature-item {
+    grid-template-columns: 1fr; /* 1 card per row on small screens */
+  }
 }

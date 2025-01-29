@@ -1,5 +1,3 @@
-// FeaturesSection.js - Displays Features of RealBotAI
-
 import React from 'react';
 import './FeaturesSection.css';
 
